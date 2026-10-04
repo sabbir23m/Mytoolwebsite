@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog &amp; Tutorials - WebUtils | Guides &amp; 1-Click Online Tools</title>
+    <meta
+      name="description"
+      content="In-depth tutorials, developer guides, and productivity workflows. Learn how to format JSON, generate QR codes, calculate loan EMIs, and compress images with 1-click tools."
+    />
+    <meta name="author" content="WebUtils" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tools.realtime-ai.chat/blog.html" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog &amp; Tutorials - WebUtils" />
+    <meta property="og:description" content="Read real category guides with 1-click instant tool launch buttons." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tools.realtime-ai.chat/blog.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://tools.realtime-ai.chat/social-preview.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/tool-chrome.js"></script>
+    <script src="assets/js/blog-data.js"></script>
+    <script src="assets/js/blogger-feed.js"></script>
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a href="/" class="logo" style="text-decoration: none; color: inherit;">
+            <div class="logo-icon">&lt;/&gt;</div>
+            <h1>WebUtils</h1>
+          </a>
+          <div class="tagline">
+            <span class="dot"></span>
+            <span>Online Web Tools</span>
+          </div>
+        </div>
+
+        <nav class="site-nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/blog.html" class="nav-link active">Blog</a>
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/contact.html" class="nav-link">Contact</a>
+        </nav>
+      </header>
+
+      <main style="margin: 40px 0 80px;" id="blog-main-view">
+        <div id="blog-list-view">
+          <div class="prose-header">
+            <span class="prose-badge">PRACTICAL GUIDES &amp; TUTORIALS</span>
+            <h1>WebUtils Knowledge &amp; Tech Blog</h1>
+            <p>Practical step-by-step guides with direct 1-click access to all 1,000+ online utilities.</p>
+
+            <!-- Category Filter Chips -->
+            <div style="display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 24px;">
+              <button type="button" class="category-btn active" data-cat="all">All Articles</button>
+              <button type="button" class="category-btn" data-cat="Developer Tools">⚡ Developer</button>
+              <button type="button" class="category-btn" data-cat="Generators">🎲 Generators</button>
+              <button type="button" class="category-btn" data-cat="Calculators">🔢 Calculators</button>
+              <button type="button" class="category-btn" data-cat="Media & Images">🖼️ Media</button>
+              <button type="button" class="category-btn" data-cat="Time & Date">⏰ Time</button>
+              <button type="button" class="category-btn" data-cat="Privacy & Security">🔒 Privacy</button>
+            </div>
+          </div>
+
+          <!-- Blog Posts Grid -->
+          <div
+            class="blog-grid"
+            id="blog-posts-container"
+            style="min-height: 280px;"
+          >
+            <!-- Injected dynamically -->
+          </div>
+        </div>
+
+        <!-- Full Article Reader View (Hidden by default, displayed when post is selected) -->
+        <div id="blog-article-view" style="display: none;"></div>
+      </main>
+    </div>
+
+    <!-- Multi-Column Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-col footer-col-brand">
+            <div class="footer-logo">
+              <span>🛠️</span>
+              <span>WebUtils</span>
+            </div>
+            <p>1,088+ pure client-side tools for developers, designers, and professionals. Free, fast, and privacy-protected.</p>
+            <div class="footer-badge-pill">🔒 100% Client-Side Privacy</div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-nav-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/#categories-wrapper">All Categories</a></li>
+              <li><a href="/blog.html">Blog &amp; Tutorials</a></li>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/contact.html">Contact Support</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Popular Tools</h4>
+            <ul class="footer-nav-list">
+              <li><a href="/tools/dev/json-formatter.html">JSON Formatter</a></li>
+              <li><a href="/tools/dev/base64.html">Base64 Codec</a></li>
+              <li><a href="/tools/generator/qrcode-generator.html">QR Code Generator</a></li>
+              <li><a href="/tools/time/timestamp.html">Timestamp Converter</a></li>
+              <li><a href="/tools/calculator/age-calculator.html">Age Calculator</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal &amp; Policy</h4>
+            <ul class="footer-nav-list">
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/terms.html">Terms of Service</a></li>
+              <li><a href="/disclaimer.html">Disclaimer</a></li>
+              <li><a href="mailto:sabbirhasansh321@gmail.com">Email Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            © 2026 WebUtils. All rights reserved. Built for an international audience.
+          </div>
+          <div>
+            Contact: <a href="mailto:sabbirhasansh321@gmail.com">sabbirhasansh321@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function checkRoute() {
+        var params = new URLSearchParams(window.location.search);
+        var postSlug = params.get('post');
+        var listView = document.getElementById('blog-list-view');
+        var articleView = document.getElementById('blog-article-view');
+
+        if (postSlug && window.WebUtilsBlogData) {
+          var post = window.WebUtilsBlogData.getBySlug(postSlug);
+          if (post) {
+            listView.style.display = 'none';
+            articleView.style.display = 'block';
+            window.WebUtilsBlog.renderFullArticle(post, articleView);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+          }
+        }
+
+        // Show list
+        listView.style.display = 'block';
+        articleView.style.display = 'none';
+        window.WebUtilsBlog.init('blog-posts-container', 12);
+      }
+
+      window.addEventListener('popstate', checkRoute);
+
+      document.addEventListener('DOMContentLoaded', function () {
+        checkRoute();
+
+        // Setup filter buttons
+        var buttons = document.querySelectorAll('.category-btn[data-cat]');
+        buttons.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            buttons.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            var cat = btn.dataset.cat;
+            window.WebUtilsBlog.init('blog-posts-container', 12, cat);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

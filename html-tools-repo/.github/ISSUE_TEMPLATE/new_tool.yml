@@ -1,0 +1,92 @@
+name: 新工具提议 / New tool proposal
+description: 提议一个聚焦、可维护的浏览器工具 / Propose a focused browser tool
+title: '[Tool] '
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        有好的工具想法？请说明它解决的具体任务、数据边界和现有替代方案。
+        Have a tool idea? Describe its focused job, data boundary, and existing alternatives.
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: 工具名称
+      placeholder: '例如：Markdown 编辑器'
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: 工具分类 / Category
+      description: 可填写首页中的现有分类，或说明需要一个新分类。
+      placeholder: '例如：开发工具 (dev) / 新分类：…'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 工具描述
+      description: 这个工具做什么？
+      placeholder: 描述工具的功能和用途...
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: 核心功能
+      description: 列出工具应有的主要功能
+      placeholder: |
+        - 功能 1
+        - 功能 2
+        - 功能 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: 使用场景
+      description: 什么情况下会用到这个工具？
+      placeholder: |
+        - 场景 1：...
+        - 场景 2：...
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考实现
+      description: 类似工具或参考链接（可选）
+
+  - type: dropdown
+    id: data_boundary
+    attributes:
+      label: 数据与网络边界 / Data and network boundary
+      description: 最接近预期实现的选项是：
+      options:
+        - 完全在当前页面本地处理
+        - 使用浏览器权限或设备 API
+        - 请求用户指定或项目明示的外部服务
+        - 加载 CDN、字体、图像或公开数据源
+        - 尚不确定
+    validations:
+      required: true
+
+  - type: textarea
+    id: privacy
+    attributes:
+      label: 隐私说明 / Privacy notes
+      description: 哪些输入会离开浏览器？依赖哪些外部资源？如不需要，请写“全部本地处理”。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 贡献意愿
+      options:
+        - label: 我愿意帮忙开发这个工具

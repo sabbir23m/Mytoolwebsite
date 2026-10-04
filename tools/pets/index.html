@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Pet Care - Online Tools (6 utilities) | WebUtils</title>
+    <meta
+      name="description"
+      content="Pet care calculators for pet age, feeding quantities, and medication dosage guidelines."
+    />
+    <meta name="keywords" content="Pet Care, online tools, free utilities, Pet Care collection" />
+    <meta name="author" content="WebUtils" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tools.realtime-ai.chat/tools/pets/" />
+    <meta property="og:title" content="Pet Care - Online Tools (6 utilities) | WebUtils" />
+    <meta
+      property="og:description"
+      content="Pet care calculators for pet age, feeding quantities, and medication dosage guidelines."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tools.realtime-ai.chat/tools/pets/" />
+    <meta property="og:site_name" content="WebUtils" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://tools.realtime-ai.chat/social-preview.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Pet Care - Online Tools (6 utilities) | WebUtils" />
+    <meta
+      name="twitter:description"
+      content="Pet care calculators for pet age, feeding quantities, and medication dosage guidelines."
+    />
+    <meta name="twitter:image" content="https://tools.realtime-ai.chat/social-preview.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tools.realtime-ai.chat/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pet Care",
+            "item": "https://tools.realtime-ai.chat/tools/pets/"
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Pet Care - Online Tools (6 utilities) | WebUtils",
+        "description": "Pet care calculators for pet age, feeding quantities, and medication dosage guidelines.",
+        "url": "https://tools.realtime-ai.chat/tools/pets/",
+        "mainEntity": {
+          "@type": "ItemList",
+          "numberOfItems": 6,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Pet Age",
+              "url": "https://tools.realtime-ai.chat/tools/pets/pet-age"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Pet Food Calculator",
+              "url": "https://tools.realtime-ai.chat/tools/pets/pet-food-calc"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Pet Age Calculator Cn",
+              "url": "https://tools.realtime-ai.chat/tools/pets/pet-age-calculator-cn"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Pet Age Calculator",
+              "url": "https://tools.realtime-ai.chat/tools/pets/pet-age-calculator"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Feeding Schedule",
+              "url": "https://tools.realtime-ai.chat/tools/pets/feeding-schedule"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Pet Medication Dosage",
+              "url": "https://tools.realtime-ai.chat/tools/pets/pet-medication-dosage"
+            }
+          ]
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../assets/css/tool-base.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg-deep);
+        color: var(--text-primary);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+      }
+      .cat-main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: calc(var(--nav-height) + var(--space-6)) var(--space-5) var(--space-10);
+      }
+      .cat-hero {
+        text-align: center;
+        margin-bottom: var(--space-8);
+      }
+      .cat-hero-icon {
+        font-size: 3rem;
+        line-height: 1;
+      }
+      .cat-hero h1 {
+        font-size: 1.9rem;
+        margin: var(--space-3) 0 var(--space-2);
+      }
+      .cat-intro {
+        max-width: 640px;
+        margin: 0 auto var(--space-3);
+        color: var(--text-secondary);
+        line-height: 1.7;
+      }
+      .cat-meta {
+        margin: 0;
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+      .cat-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: var(--space-3);
+      }
+      .cat-card {
+        display: flex;
+        gap: var(--space-3);
+        padding: var(--space-4);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-lg);
+        background: var(--bg-card);
+        color: inherit;
+        text-decoration: none;
+        transition:
+          border-color var(--transition),
+          transform var(--transition);
+      }
+      .cat-card:hover {
+        border-color: var(--accent-cyan);
+        transform: translateY(-2px);
+      }
+      .cat-card-icon {
+        flex-shrink: 0;
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+      .cat-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        min-width: 0;
+      }
+      .cat-card-name {
+        font-weight: 600;
+      }
+      .cat-card-desc {
+        font-size: 0.82rem;
+        line-height: 1.5;
+        color: var(--text-secondary);
+      }
+      .cat-faq {
+        margin-top: var(--space-10);
+      }
+      .cat-faq h2 {
+        font-size: 1.1rem;
+        margin-bottom: var(--space-3);
+      }
+      .cat-footer {
+        margin-top: var(--space-8);
+        text-align: center;
+      }
+      .cat-footer a {
+        font-size: 0.9rem;
+        color: var(--accent-cyan);
+        text-decoration: none;
+      }
+      .cat-footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <!-- PWA -->
+    <link rel="manifest" href="../../manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+    <script src="../../assets/js/tool-chrome.js"></script>
+  </head>
+  <body>
+    <main class="cat-main">
+      <header class="cat-hero">
+        <div class="cat-hero-icon">🐾</div>
+        <h1>Pet Care</h1>
+        <p class="cat-intro">
+          Pet care calculators for pet age, feeding quantities, and medication dosage guidelines.
+        </p>
+        <p class="cat-meta">6 tools · 100% Client-Side · Free · No Ads</p>
+      </header>
+      <section class="cat-grid">
+        <a class="cat-card" href="pet-age" data-file-href="pet-age.html">
+          <span class="cat-card-icon">🔧</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Pet Age</span>
+            <span class="cat-card-desc">
+              Pet Age - Free online pet care tool running 100% locally in your browser.
+            </span>
+          </span>
+        </a>
+        <a class="cat-card" href="pet-food-calc" data-file-href="pet-food-calc.html">
+          <span class="cat-card-icon">🔧</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Pet Food Calculator</span>
+            <span class="cat-card-desc">
+              Pet Food Calculator - Free online pet care tool running 100% locally in your browser.
+            </span>
+          </span>
+        </a>
+        <a
+          class="cat-card"
+          href="pet-age-calculator-cn"
+          data-file-href="pet-age-calculator-cn.html"
+        >
+          <span class="cat-card-icon">🐾</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Pet Age Calculator Cn</span>
+            <span class="cat-card-desc">
+              Pet Age Calculator Cn - Free online pet care tool running 100% locally in your
+              browser.
+            </span>
+          </span>
+        </a>
+        <a class="cat-card" href="pet-age-calculator" data-file-href="pet-age-calculator.html">
+          <span class="cat-card-icon">🐾</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Pet Age Calculator</span>
+            <span class="cat-card-desc">
+              Pet Age Calculator - Free online pet care tool running 100% locally in your browser.
+            </span>
+          </span>
+        </a>
+        <a class="cat-card" href="feeding-schedule" data-file-href="feeding-schedule.html">
+          <span class="cat-card-icon">🍖</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Feeding Schedule</span>
+            <span class="cat-card-desc">
+              Feeding Schedule - Free online pet care tool running 100% locally in your browser.
+            </span>
+          </span>
+        </a>
+        <a
+          class="cat-card"
+          href="pet-medication-dosage"
+          data-file-href="pet-medication-dosage.html"
+        >
+          <span class="cat-card-icon">💊</span>
+          <span class="cat-card-body">
+            <span class="cat-card-name">Pet Medication Dosage</span>
+            <span class="cat-card-desc">
+              Pet Medication Dosage - Free online pet care tool running 100% locally in your
+              browser.
+            </span>
+          </span>
+        </a>
+      </section>
+      <footer class="cat-footer">
+        <a href="../../" data-file-href="../../index.html">← Back to All Tools</a>
+      </footer>
+    </main>
+  </body>
+</html>

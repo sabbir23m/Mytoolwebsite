@@ -1,0 +1,6 @@
+{
+  "name": "WebUtils Codebase & Architecture Analyzer",
+  "description": "Comprehensive structural analysis, architectural inspection, and interactive catalog for the WebUtils 1,088+ pure frontend tools project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

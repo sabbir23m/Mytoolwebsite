@@ -1,0 +1,330 @@
+# WebUtils
+
+> WebUtils 包含 1088+ 个浏览器端工具。多数格式化、计算和生成工具在本地页面处理输入；HTTP、REST、WebSocket、DNS/IP 等网络工具会连接用户选择或页面标明的第三方服务。
+
+WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格式化与转换、Base64/URL/Unicode 编解码、时间戳与时区转换、二维码生成、图片压缩、正则表达式测试、哈希计算等。
+
+技术特点：
+
+- 静态优先：工具以独立 HTML 页面为入口，源码无需前端框架运行时
+- 本地优先：本地计算工具不把输入发送给 WebUtils 后端
+- 网络透明：网络工具和外部资源会连接第三方，不能承诺完全离线
+- 可移植：standalone 导出会内联仓库内共享资源，外部依赖仍保持外链
+
+## Developer Tools
+
+- [JSON Formatter](https://tools.realtime-ai.chat/tools/dev/json-formatter): JSON Formatter - Free online developer tools tool running 100% locally in your browser.
+- [Base64](https://tools.realtime-ai.chat/tools/dev/base64): Base64 - Free online developer tools tool running 100% locally in your browser.
+- [URL Codec](https://tools.realtime-ai.chat/tools/dev/url-codec): URL Codec - Free online developer tools tool running 100% locally in your browser.
+- [JWT Decoder](https://tools.realtime-ai.chat/tools/dev/jwt-decoder): JWT Decoder - Free online developer tools tool running 100% locally in your browser.
+- [Regex Tester](https://tools.realtime-ai.chat/tools/dev/regex-tester): Regex Tester - Free online developer tools tool running 100% locally in your browser.
+- [JSON YAML (Developer Tools)](https://tools.realtime-ai.chat/tools/dev/json-yaml): JSON YAML (Developer Tools) - Free online developer tools tool running 100% locally in your browser.
+
+## Text Utilities
+
+- [Markdown Editor](https://tools.realtime-ai.chat/tools/text/markdown-editor): Markdown Editor - Free online text utilities tool running 100% locally in your browser.
+- [Markdown Preview](https://tools.realtime-ai.chat/tools/text/markdown-preview): Markdown Preview - Free online text utilities tool running 100% locally in your browser.
+- [Diff Checker](https://tools.realtime-ai.chat/tools/text/diff-checker): Diff Checker - Free online text utilities tool running 100% locally in your browser.
+- [Text Diff](https://tools.realtime-ai.chat/tools/text/text-diff): Text Diff - Free online text utilities tool running 100% locally in your browser.
+- [Word Counter (Text Utilities)](https://tools.realtime-ai.chat/tools/text/word-counter): Word Counter (Text Utilities) - Free online text utilities tool running 100% locally in your browser.
+- [Case Converter](https://tools.realtime-ai.chat/tools/text/case-converter): Case Converter - Free online text utilities tool running 100% locally in your browser.
+
+## Time & Date
+
+- [Timestamp](https://tools.realtime-ai.chat/tools/time/timestamp): Timestamp - Free online time & date tool running 100% locally in your browser.
+- [Timezone Converter](https://tools.realtime-ai.chat/tools/time/timezone-converter): Timezone Converter - Free online time & date tool running 100% locally in your browser.
+- [Pomodoro](https://tools.realtime-ai.chat/tools/time/pomodoro): Pomodoro - Free online time & date tool running 100% locally in your browser.
+- [Countdown](https://tools.realtime-ai.chat/tools/time/countdown): Countdown - Free online time & date tool running 100% locally in your browser.
+- [Stopwatch](https://tools.realtime-ai.chat/tools/time/stopwatch): Stopwatch - Free online time & date tool running 100% locally in your browser.
+- [Countdown Timer](https://tools.realtime-ai.chat/tools/time/countdown-timer): Countdown Timer - Free online time & date tool running 100% locally in your browser.
+
+## Generators
+
+- [QR Code Generator](https://tools.realtime-ai.chat/tools/generator/qrcode-generator): QR Code Generator - Free online generators tool running 100% locally in your browser.
+- [Password Generator](https://tools.realtime-ai.chat/tools/generator/password-generator): Password Generator - Free online generators tool running 100% locally in your browser.
+- [UUID Generator](https://tools.realtime-ai.chat/tools/generator/uuid-generator): UUID Generator - Free online generators tool running 100% locally in your browser.
+- [Lorem Ipsum (Generators)](https://tools.realtime-ai.chat/tools/generator/lorem-ipsum): Lorem Ipsum (Generators) - Free online generators tool running 100% locally in your browser.
+- [Avatar Generator](https://tools.realtime-ai.chat/tools/generator/avatar-generator): Avatar Generator - Free online generators tool running 100% locally in your browser.
+- [Barcode](https://tools.realtime-ai.chat/tools/generator/barcode): Barcode - Free online generators tool running 100% locally in your browser.
+
+## Media & Images
+
+- [Base64 Image](https://tools.realtime-ai.chat/tools/media/base64-image): Base64 Image - Free online media & images tool running 100% locally in your browser.
+- [Image Compressor](https://tools.realtime-ai.chat/tools/media/image-compressor): Image Compressor - Free online media & images tool running 100% locally in your browser.
+- [Color Picker (Media & Images)](https://tools.realtime-ai.chat/tools/media/color-picker): Color Picker (Media & Images) - Free online media & images tool running 100% locally in your browser.
+- [Image Resize](https://tools.realtime-ai.chat/tools/media/image-resize): Image Resize - Free online media & images tool running 100% locally in your browser.
+- [SVG Render](https://tools.realtime-ai.chat/tools/media/svg-render): SVG Render - Free online media & images tool running 100% locally in your browser.
+- [Favicon Generator](https://tools.realtime-ai.chat/tools/media/favicon-generator): Favicon Generator - Free online media & images tool running 100% locally in your browser.
+
+## Privacy & Encryption
+
+- [Credit Card](https://tools.realtime-ai.chat/tools/privacy/credit-card): Credit Card - Free online privacy & encryption tool running 100% locally in your browser.
+- [Encrypt Decrypt](https://tools.realtime-ai.chat/tools/privacy/encrypt-decrypt): Encrypt Decrypt - Free online privacy & encryption tool running 100% locally in your browser.
+- [EXIF Remover](https://tools.realtime-ai.chat/tools/privacy/exif-remover): EXIF Remover - Free online privacy & encryption tool running 100% locally in your browser.
+- [File Hash](https://tools.realtime-ai.chat/tools/privacy/file-hash): File Hash - Free online privacy & encryption tool running 100% locally in your browser.
+- [Idcard Parser](https://tools.realtime-ai.chat/tools/privacy/idcard-parser): Idcard Parser - Free online privacy & encryption tool running 100% locally in your browser.
+- [Log Masker](https://tools.realtime-ai.chat/tools/privacy/log-masker): Log Masker - Free online privacy & encryption tool running 100% locally in your browser.
+
+## Security Tools
+
+- [Hash Generator (Security Tools)](https://tools.realtime-ai.chat/tools/security/hash-generator): Hash Generator (Security Tools) - Free online security tools tool running 100% locally in your browser.
+- [Bcrypt Generator](https://tools.realtime-ai.chat/tools/security/bcrypt-generator): Bcrypt Generator - Free online security tools tool running 100% locally in your browser.
+- [Cookie Parser](https://tools.realtime-ai.chat/tools/security/cookie-parser): Cookie Parser - Free online security tools tool running 100% locally in your browser.
+- [CORS Generator](https://tools.realtime-ai.chat/tools/security/cors-generator): CORS Generator - Free online security tools tool running 100% locally in your browser.
+- [CSP Generator](https://tools.realtime-ai.chat/tools/security/csp-generator): CSP Generator - Free online security tools tool running 100% locally in your browser.
+- [Header Analyzer](https://tools.realtime-ai.chat/tools/security/header-analyzer): Header Analyzer - Free online security tools tool running 100% locally in your browser.
+
+## Network Tools
+
+- [IP Lookup](https://tools.realtime-ai.chat/tools/network/ip-lookup): IP Lookup - Free online network tools tool running 100% locally in your browser.
+- [Device Info](https://tools.realtime-ai.chat/tools/network/device-info): Device Info - Free online network tools tool running 100% locally in your browser.
+- [DNS Lookup](https://tools.realtime-ai.chat/tools/network/dns-lookup): DNS Lookup - Free online network tools tool running 100% locally in your browser.
+- [Http Header Parser](https://tools.realtime-ai.chat/tools/network/http-header-parser): Http Header Parser - Free online network tools tool running 100% locally in your browser.
+- [IP Calculator](https://tools.realtime-ai.chat/tools/network/ip-calculator): IP Calculator - Free online network tools tool running 100% locally in your browser.
+- [IP Tools](https://tools.realtime-ai.chat/tools/network/ip-tools): IP Tools - Free online network tools tool running 100% locally in your browser.
+
+## Calculators
+
+- [BMI Calculator](https://tools.realtime-ai.chat/tools/calculator/bmi-calculator): BMI Calculator - Free online calculators tool running 100% locally in your browser.
+- [Mortgage Calculator (Calculators)](https://tools.realtime-ai.chat/tools/calculator/mortgage-calculator): Mortgage Calculator (Calculators) - Free online calculators tool running 100% locally in your browser.
+- [Age Calculator](https://tools.realtime-ai.chat/tools/calculator/age-calculator): Age Calculator - Free online calculators tool running 100% locally in your browser.
+- [Compound Interest](https://tools.realtime-ai.chat/tools/calculator/compound-interest): Compound Interest - Free online calculators tool running 100% locally in your browser.
+- [Percentage Calculator](https://tools.realtime-ai.chat/tools/calculator/percentage-calculator): Percentage Calculator - Free online calculators tool running 100% locally in your browser.
+- [Age Diff Calculator](https://tools.realtime-ai.chat/tools/calculator/age-diff-calc): Age Diff Calculator - Free online calculators tool running 100% locally in your browser.
+
+## Converters
+
+- [JSON YAML](https://tools.realtime-ai.chat/tools/converter/json-yaml): JSON YAML - Free online converters tool running 100% locally in your browser.
+- [Number Base](https://tools.realtime-ai.chat/tools/converter/number-base): Number Base - Free online converters tool running 100% locally in your browser.
+- [Number Base Converter](https://tools.realtime-ai.chat/tools/converter/number-base-converter): Number Base Converter - Free online converters tool running 100% locally in your browser.
+- [Binary Translator](https://tools.realtime-ai.chat/tools/converter/binary-translator): Binary Translator - Free online converters tool running 100% locally in your browser.
+- [Angle Converter](https://tools.realtime-ai.chat/tools/converter/angle-converter): Angle Converter - Free online converters tool running 100% locally in your browser.
+- [CSV JSON](https://tools.realtime-ai.chat/tools/converter/csv-json): CSV JSON - Free online converters tool running 100% locally in your browser.
+
+## Extractors
+
+- [Favicon Extractor](https://tools.realtime-ai.chat/tools/extractor/favicon-extractor): Favicon Extractor - Free online extractors tool running 100% locally in your browser.
+- [Link Extractor](https://tools.realtime-ai.chat/tools/extractor/link-extractor): Link Extractor - Free online extractors tool running 100% locally in your browser.
+- [Regex Extractor](https://tools.realtime-ai.chat/tools/extractor/regex-extractor): Regex Extractor - Free online extractors tool running 100% locally in your browser.
+- [Text Extractor](https://tools.realtime-ai.chat/tools/extractor/text-extractor): Text Extractor - Free online extractors tool running 100% locally in your browser.
+- [JSON Path Extractor](https://tools.realtime-ai.chat/tools/extractor/json-path-extractor): JSON Path Extractor - Free online extractors tool running 100% locally in your browser.
+
+## AI & Prompts
+
+- [Prompt Generator](https://tools.realtime-ai.chat/tools/ai/prompt-generator): Prompt Generator - Free online ai & prompts tool running 100% locally in your browser.
+- [AGI 2026 Outlook](https://tools.realtime-ai.chat/tools/ai/agi-2026-outlook): AGI 2026 Outlook - Free online ai & prompts tool running 100% locally in your browser.
+- [Ai Agent 2025 Guide](https://tools.realtime-ai.chat/tools/ai/ai-agent-2025-guide): Ai Agent 2025 Guide - Free online ai & prompts tool running 100% locally in your browser.
+- [Ai Agent Guide](https://tools.realtime-ai.chat/tools/ai/ai-agent-guide): Ai Agent Guide - Free online ai & prompts tool running 100% locally in your browser.
+- [Ai Coding Tools 2025](https://tools.realtime-ai.chat/tools/ai/ai-coding-tools-2025): Ai Coding Tools 2025 - Free online ai & prompts tool running 100% locally in your browser.
+- [Ai Coding Tools](https://tools.realtime-ai.chat/tools/ai/ai-coding-tools): Ai Coding Tools - Free online ai & prompts tool running 100% locally in your browser.
+
+## Lifestyle & Daily
+
+- [Password Generator (Lifestyle & Daily)](https://tools.realtime-ai.chat/tools/life/password-generator): Password Generator (Lifestyle & Daily) - Free online lifestyle & daily tool running 100% locally in your browser.
+- [Color Picker](https://tools.realtime-ai.chat/tools/life/color-picker): Color Picker - Free online lifestyle & daily tool running 100% locally in your browser.
+- [Word Counter](https://tools.realtime-ai.chat/tools/life/word-counter): Word Counter - Free online lifestyle & daily tool running 100% locally in your browser.
+- [Mortgage Calculator](https://tools.realtime-ai.chat/tools/life/mortgage-calculator): Mortgage Calculator - Free online lifestyle & daily tool running 100% locally in your browser.
+- [Pomodoro (Lifestyle & Daily)](https://tools.realtime-ai.chat/tools/life/pomodoro): Pomodoro (Lifestyle & Daily) - Free online lifestyle & daily tool running 100% locally in your browser.
+- [Pomodoro Timer (Lifestyle & Daily)](https://tools.realtime-ai.chat/tools/life/pomodoro-timer): Pomodoro Timer (Lifestyle & Daily) - Free online lifestyle & daily tool running 100% locally in your browser.
+
+## SEO Tools
+
+- [Heading Analyzer](https://tools.realtime-ai.chat/tools/seo/heading-analyzer): Heading Analyzer - Free online seo tools tool running 100% locally in your browser.
+- [Image Alt Checker](https://tools.realtime-ai.chat/tools/seo/image-alt-checker): Image Alt Checker - Free online seo tools tool running 100% locally in your browser.
+- [Keyword Density](https://tools.realtime-ai.chat/tools/seo/keyword-density): Keyword Density - Free online seo tools tool running 100% locally in your browser.
+- [Link Analyzer](https://tools.realtime-ai.chat/tools/seo/link-analyzer): Link Analyzer - Free online seo tools tool running 100% locally in your browser.
+- [Meta Preview](https://tools.realtime-ai.chat/tools/seo/meta-preview): Meta Preview - Free online seo tools tool running 100% locally in your browser.
+- [Meta Tags Generator](https://tools.realtime-ai.chat/tools/seo/meta-tags-generator): Meta Tags Generator - Free online seo tools tool running 100% locally in your browser.
+
+## Fun & Games
+
+- [Countdown Timer (Fun & Games)](https://tools.realtime-ai.chat/tools/fun/countdown-timer): Countdown Timer (Fun & Games) - Free online fun & games tool running 100% locally in your browser.
+- [Stopwatch (Fun & Games)](https://tools.realtime-ai.chat/tools/fun/stopwatch): Stopwatch (Fun & Games) - Free online fun & games tool running 100% locally in your browser.
+- [Aim Trainer](https://tools.realtime-ai.chat/tools/fun/aim-trainer): Aim Trainer - Free online fun & games tool running 100% locally in your browser.
+- [Coin Flip](https://tools.realtime-ai.chat/tools/fun/coin-flip): Coin Flip - Free online fun & games tool running 100% locally in your browser.
+- [Dice Roller](https://tools.realtime-ai.chat/tools/fun/dice-roller): Dice Roller - Free online fun & games tool running 100% locally in your browser.
+- [Number Memory](https://tools.realtime-ai.chat/tools/fun/number-memory): Number Memory - Free online fun & games tool running 100% locally in your browser.
+
+## Web Games
+
+- [Game 2048](https://tools.realtime-ai.chat/tools/game/game-2048): Game 2048 - Free online web games tool running 100% locally in your browser.
+- [Game Minesweeper](https://tools.realtime-ai.chat/tools/game/game-minesweeper): Game Minesweeper - Free online web games tool running 100% locally in your browser.
+- [Game Snake](https://tools.realtime-ai.chat/tools/game/game-snake): Game Snake - Free online web games tool running 100% locally in your browser.
+- [Game Sudoku](https://tools.realtime-ai.chat/tools/game/game-sudoku): Game Sudoku - Free online web games tool running 100% locally in your browser.
+- [Game Tetris](https://tools.realtime-ai.chat/tools/game/game-tetris): Game Tetris - Free online web games tool running 100% locally in your browser.
+- [Memory Match](https://tools.realtime-ai.chat/tools/game/memory-match): Memory Match - Free online web games tool running 100% locally in your browser.
+
+## Finance & Wealth
+
+- [Compound Interest (Finance & Wealth)](https://tools.realtime-ai.chat/tools/finance/compound-interest): Compound Interest (Finance & Wealth) - Free online finance & wealth tool running 100% locally in your browser.
+- [Stock Calculator](https://tools.realtime-ai.chat/tools/finance/stock-calculator): Stock Calculator - Free online finance & wealth tool running 100% locally in your browser.
+- [Currency Converter](https://tools.realtime-ai.chat/tools/finance/currency-converter): Currency Converter - Free online finance & wealth tool running 100% locally in your browser.
+- [Tax Calculator](https://tools.realtime-ai.chat/tools/finance/tax-calculator): Tax Calculator - Free online finance & wealth tool running 100% locally in your browser.
+- [Budget Planner](https://tools.realtime-ai.chat/tools/finance/budget-planner): Budget Planner - Free online finance & wealth tool running 100% locally in your browser.
+- [Investment Return](https://tools.realtime-ai.chat/tools/finance/investment-return): Investment Return - Free online finance & wealth tool running 100% locally in your browser.
+
+## Health & Fitness
+
+- [Calorie Calculator](https://tools.realtime-ai.chat/tools/health/calorie-calculator): Calorie Calculator - Free online health & fitness tool running 100% locally in your browser.
+- [Menstrual Cycle](https://tools.realtime-ai.chat/tools/health/menstrual-cycle): Menstrual Cycle - Free online health & fitness tool running 100% locally in your browser.
+- [Body Fat](https://tools.realtime-ai.chat/tools/health/body-fat): Body Fat - Free online health & fitness tool running 100% locally in your browser.
+- [Water Intake](https://tools.realtime-ai.chat/tools/health/water-intake): Water Intake - Free online health & fitness tool running 100% locally in your browser.
+- [Heart Rate Zone](https://tools.realtime-ai.chat/tools/health/heart-rate-zone): Heart Rate Zone - Free online health & fitness tool running 100% locally in your browser.
+- [Blood Pressure](https://tools.realtime-ai.chat/tools/health/blood-pressure): Blood Pressure - Free online health & fitness tool running 100% locally in your browser.
+
+## Education & Learning
+
+- [GPA Calculator](https://tools.realtime-ai.chat/tools/education/gpa-calculator): GPA Calculator - Free online education & learning tool running 100% locally in your browser.
+- [Grade Calculator](https://tools.realtime-ai.chat/tools/education/grade-calculator): Grade Calculator - Free online education & learning tool running 100% locally in your browser.
+- [Study Timer](https://tools.realtime-ai.chat/tools/education/study-timer): Study Timer - Free online education & learning tool running 100% locally in your browser.
+- [Flashcard](https://tools.realtime-ai.chat/tools/education/flashcard): Flashcard - Free online education & learning tool running 100% locally in your browser.
+- [Citation Generator](https://tools.realtime-ai.chat/tools/education/citation-generator): Citation Generator - Free online education & learning tool running 100% locally in your browser.
+- [Reading Speed](https://tools.realtime-ai.chat/tools/education/reading-speed): Reading Speed - Free online education & learning tool running 100% locally in your browser.
+
+## Food & Cooking
+
+- [Tea Timer](https://tools.realtime-ai.chat/tools/food/tea-timer): Tea Timer - Free online food & cooking tool running 100% locally in your browser.
+- [Calorie Counter](https://tools.realtime-ai.chat/tools/food/calorie-counter): Calorie Counter - Free online food & cooking tool running 100% locally in your browser.
+- [Cooking Converter](https://tools.realtime-ai.chat/tools/food/cooking-converter): Cooking Converter - Free online food & cooking tool running 100% locally in your browser.
+- [Recipe Scaler](https://tools.realtime-ai.chat/tools/food/recipe-scaler): Recipe Scaler - Free online food & cooking tool running 100% locally in your browser.
+- [Nutrition Calculator](https://tools.realtime-ai.chat/tools/food/nutrition-calculator): Nutrition Calculator - Free online food & cooking tool running 100% locally in your browser.
+- [Baking Calculator](https://tools.realtime-ai.chat/tools/food/baking-calculator): Baking Calculator - Free online food & cooking tool running 100% locally in your browser.
+
+## Language Tools
+
+- [Idcard Generator](https://tools.realtime-ai.chat/tools/chinese/idcard-generator): Idcard Generator - Free online language tools tool running 100% locally in your browser.
+- [Idcard Validator](https://tools.realtime-ai.chat/tools/chinese/idcard-validator): Idcard Validator - Free online language tools tool running 100% locally in your browser.
+- [USCC Validator](https://tools.realtime-ai.chat/tools/chinese/uscc-validator): USCC Validator - Free online language tools tool running 100% locally in your browser.
+- [License Plate](https://tools.realtime-ai.chat/tools/chinese/license-plate): License Plate - Free online language tools tool running 100% locally in your browser.
+- [Lunar Calendar](https://tools.realtime-ai.chat/tools/chinese/lunar-calendar): Lunar Calendar - Free online language tools tool running 100% locally in your browser.
+- [Chinese Zodiac](https://tools.realtime-ai.chat/tools/chinese/chinese-zodiac): Chinese Zodiac - Free online language tools tool running 100% locally in your browser.
+
+## AI Coding
+
+- [Index](https://tools.realtime-ai.chat/tools/ai-coding/): Index - Free online ai coding tool running 100% locally in your browser.
+- [Ai IDE](https://tools.realtime-ai.chat/tools/ai-coding/wiki/ai-ide): Ai IDE - Free online ai coding tool running 100% locally in your browser.
+- [Claude Skills](https://tools.realtime-ai.chat/tools/ai-coding/wiki/claude-skills): Claude Skills - Free online ai coding tool running 100% locally in your browser.
+- [Cursor Rules](https://tools.realtime-ai.chat/tools/ai-coding/wiki/cursor-rules): Cursor Rules - Free online ai coding tool running 100% locally in your browser.
+- [MCP Servers](https://tools.realtime-ai.chat/tools/ai-coding/wiki/mcp-servers): MCP Servers - Free online ai coding tool running 100% locally in your browser.
+
+## Real Estate
+
+- [Mortgage](https://tools.realtime-ai.chat/tools/realestate/mortgage): Mortgage - Free online real estate tool running 100% locally in your browser.
+- [Down Payment](https://tools.realtime-ai.chat/tools/realestate/down-payment): Down Payment - Free online real estate tool running 100% locally in your browser.
+- [Prepayment](https://tools.realtime-ai.chat/tools/realestate/prepayment): Prepayment - Free online real estate tool running 100% locally in your browser.
+- [Loan Compare](https://tools.realtime-ai.chat/tools/realestate/loan-compare): Loan Compare - Free online real estate tool running 100% locally in your browser.
+- [Combo Loan](https://tools.realtime-ai.chat/tools/realestate/combo-loan): Combo Loan - Free online real estate tool running 100% locally in your browser.
+- [Deed Tax](https://tools.realtime-ai.chat/tools/realestate/deed-tax): Deed Tax - Free online real estate tool running 100% locally in your browser.
+
+## Business Tools
+
+- [Profit Margin (Business Tools)](https://tools.realtime-ai.chat/tools/business/profit-margin): Profit Margin (Business Tools) - Free online business tools tool running 100% locally in your browser.
+- [Breakeven](https://tools.realtime-ai.chat/tools/business/breakeven): Breakeven - Free online business tools tool running 100% locally in your browser.
+- [ROI](https://tools.realtime-ai.chat/tools/business/roi): ROI - Free online business tools tool running 100% locally in your browser.
+- [NPV](https://tools.realtime-ai.chat/tools/business/npv): NPV - Free online business tools tool running 100% locally in your browser.
+- [Inventory](https://tools.realtime-ai.chat/tools/business/inventory): Inventory - Free online business tools tool running 100% locally in your browser.
+- [Receivables](https://tools.realtime-ai.chat/tools/business/receivables): Receivables - Free online business tools tool running 100% locally in your browser.
+
+## Cryptocurrency
+
+- [Profit Loss](https://tools.realtime-ai.chat/tools/crypto/profit-loss): Profit Loss - Free online cryptocurrency tool running 100% locally in your browser.
+- [DCA](https://tools.realtime-ai.chat/tools/crypto/dca): DCA - Free online cryptocurrency tool running 100% locally in your browser.
+- [Leverage](https://tools.realtime-ai.chat/tools/crypto/leverage): Leverage - Free online cryptocurrency tool running 100% locally in your browser.
+- [Liquidation](https://tools.realtime-ai.chat/tools/crypto/liquidation): Liquidation - Free online cryptocurrency tool running 100% locally in your browser.
+- [Impermanent Loss](https://tools.realtime-ai.chat/tools/crypto/impermanent-loss): Impermanent Loss - Free online cryptocurrency tool running 100% locally in your browser.
+- [APY APR](https://tools.realtime-ai.chat/tools/crypto/apy-apr): APY APR - Free online cryptocurrency tool running 100% locally in your browser.
+
+## Legal & Compliance
+
+- [Privacy Policy](https://tools.realtime-ai.chat/tools/legal/privacy-policy): Privacy Policy - Free online legal & compliance tool running 100% locally in your browser.
+- [Terms Generator](https://tools.realtime-ai.chat/tools/legal/terms-generator): Terms Generator - Free online legal & compliance tool running 100% locally in your browser.
+- [NDA Generator](https://tools.realtime-ai.chat/tools/legal/nda-generator): NDA Generator - Free online legal & compliance tool running 100% locally in your browser.
+- [Disclaimer Generator](https://tools.realtime-ai.chat/tools/legal/disclaimer-gen): Disclaimer Generator - Free online legal & compliance tool running 100% locally in your browser.
+- [Cookie Policy](https://tools.realtime-ai.chat/tools/legal/cookie-policy): Cookie Policy - Free online legal & compliance tool running 100% locally in your browser.
+- [GDPR Checklist](https://tools.realtime-ai.chat/tools/legal/gdpr-checklist): GDPR Checklist - Free online legal & compliance tool running 100% locally in your browser.
+
+## Social Media
+
+- [Hashtag Generator](https://tools.realtime-ai.chat/tools/social-media/hashtag-generator): Hashtag Generator - Free online social media tool running 100% locally in your browser.
+- [Post Scheduler](https://tools.realtime-ai.chat/tools/social-media/post-scheduler): Post Scheduler - Free online social media tool running 100% locally in your browser.
+- [Caption Writer](https://tools.realtime-ai.chat/tools/social-media/caption-writer): Caption Writer - Free online social media tool running 100% locally in your browser.
+- [Thread Splitter](https://tools.realtime-ai.chat/tools/social-media/thread-splitter): Thread Splitter - Free online social media tool running 100% locally in your browser.
+- [Bio Generator](https://tools.realtime-ai.chat/tools/social-media/bio-generator): Bio Generator - Free online social media tool running 100% locally in your browser.
+- [Social Preview](https://tools.realtime-ai.chat/tools/social-media/social-preview): Social Preview - Free online social media tool running 100% locally in your browser.
+
+## Team Collaboration
+
+- [Meeting Agenda](https://tools.realtime-ai.chat/tools/team-tools/meeting-agenda): Meeting Agenda - Free online team collaboration tool running 100% locally in your browser.
+- [Sprint Planner](https://tools.realtime-ai.chat/tools/team-tools/sprint-planner): Sprint Planner - Free online team collaboration tool running 100% locally in your browser.
+- [Task Breakdown](https://tools.realtime-ai.chat/tools/team-tools/task-breakdown): Task Breakdown - Free online team collaboration tool running 100% locally in your browser.
+- [Decision Matrix](https://tools.realtime-ai.chat/tools/team-tools/decision-matrix): Decision Matrix - Free online team collaboration tool running 100% locally in your browser.
+- [RACI Chart](https://tools.realtime-ai.chat/tools/team-tools/raci-chart): RACI Chart - Free online team collaboration tool running 100% locally in your browser.
+- [Standup Timer](https://tools.realtime-ai.chat/tools/team-tools/standup-timer): Standup Timer - Free online team collaboration tool running 100% locally in your browser.
+
+## Data Processing
+
+- [Bar Chart](https://tools.realtime-ai.chat/tools/data/bar-chart): Bar Chart - Free online data processing tool running 100% locally in your browser.
+- [Chart Maker](https://tools.realtime-ai.chat/tools/data/chart-maker): Chart Maker - Free online data processing tool running 100% locally in your browser.
+- [Correlation Analyzer](https://tools.realtime-ai.chat/tools/data/correlation-analyzer): Correlation Analyzer - Free online data processing tool running 100% locally in your browser.
+- [CSV Viewer](https://tools.realtime-ai.chat/tools/data/csv-viewer): CSV Viewer - Free online data processing tool running 100% locally in your browser.
+- [Data Aggregator](https://tools.realtime-ai.chat/tools/data/data-aggregator): Data Aggregator - Free online data processing tool running 100% locally in your browser.
+- [Data Cleaner](https://tools.realtime-ai.chat/tools/data/data-cleaner): Data Cleaner - Free online data processing tool running 100% locally in your browser.
+
+## Office Productivity
+
+- [Meeting Scheduler (Office Productivity)](https://tools.realtime-ai.chat/tools/office/meeting-scheduler): Meeting Scheduler (Office Productivity) - Free online office productivity tool running 100% locally in your browser.
+- [Work Hours (Office Productivity)](https://tools.realtime-ai.chat/tools/office/work-hours): Work Hours (Office Productivity) - Free online office productivity tool running 100% locally in your browser.
+- [Invoice Calculator](https://tools.realtime-ai.chat/tools/office/invoice-calculator): Invoice Calculator - Free online office productivity tool running 100% locally in your browser.
+- [Agenda Maker](https://tools.realtime-ai.chat/tools/office/agenda-maker): Agenda Maker - Free online office productivity tool running 100% locally in your browser.
+- [Attendance Sheet](https://tools.realtime-ai.chat/tools/office/attendance-sheet): Attendance Sheet - Free online office productivity tool running 100% locally in your browser.
+- [Barcode Label](https://tools.realtime-ai.chat/tools/office/barcode-label): Barcode Label - Free online office productivity tool running 100% locally in your browser.
+
+## Travel & Exploration
+
+- [Timezone Converter (Travel & Exploration)](https://tools.realtime-ai.chat/tools/travel/timezone-converter): Timezone Converter (Travel & Exploration) - Free online travel & exploration tool running 100% locally in your browser.
+- [Packing List](https://tools.realtime-ai.chat/tools/travel/packing-list): Packing List - Free online travel & exploration tool running 100% locally in your browser.
+- [Jet Lag Calculator](https://tools.realtime-ai.chat/tools/travel/jet-lag-calc): Jet Lag Calculator - Free online travel & exploration tool running 100% locally in your browser.
+- [Travel Budget](https://tools.realtime-ai.chat/tools/travel/travel-budget): Travel Budget - Free online travel & exploration tool running 100% locally in your browser.
+- [Currency Tips](https://tools.realtime-ai.chat/tools/travel/currency-tips): Currency Tips - Free online travel & exploration tool running 100% locally in your browser.
+- [Fuel Cost](https://tools.realtime-ai.chat/tools/automotive/fuel-cost): Fuel Cost - Free online travel & exploration tool running 100% locally in your browser.
+
+## Design & UI
+
+- [Aurora Generator](https://tools.realtime-ai.chat/tools/design/aurora-generator): Aurora Generator - Free online design & ui tool running 100% locally in your browser.
+- [Color Picker (Design & UI)](https://tools.realtime-ai.chat/tools/design/color-picker): Color Picker (Design & UI) - Free online design & ui tool running 100% locally in your browser.
+- [Color Wheel](https://tools.realtime-ai.chat/tools/art/color-wheel): Color Wheel - Free online design & ui tool running 100% locally in your browser.
+- [Gradient Generator (Design & UI)](https://tools.realtime-ai.chat/tools/design/gradient-generator): Gradient Generator (Design & UI) - Free online design & ui tool running 100% locally in your browser.
+- [Box Shadow Generator](https://tools.realtime-ai.chat/tools/design/box-shadow-generator): Box Shadow Generator - Free online design & ui tool running 100% locally in your browser.
+- [Color Palette (Design & UI)](https://tools.realtime-ai.chat/tools/design/color-palette): Color Palette (Design & UI) - Free online design & ui tool running 100% locally in your browser.
+
+## Mathematics
+
+- [Percentage Calculator (Mathematics)](https://tools.realtime-ai.chat/tools/math/percentage-calculator): Percentage Calculator (Mathematics) - Free online mathematics tool running 100% locally in your browser.
+- [Number Base Converter (Mathematics)](https://tools.realtime-ai.chat/tools/math/number-base-converter): Number Base Converter (Mathematics) - Free online mathematics tool running 100% locally in your browser.
+- [Binary Calculator](https://tools.realtime-ai.chat/tools/math/binary-calculator): Binary Calculator - Free online mathematics tool running 100% locally in your browser.
+- [Equation Solver](https://tools.realtime-ai.chat/tools/math/equation-solver): Equation Solver - Free online mathematics tool running 100% locally in your browser.
+- [Factorial Calculator](https://tools.realtime-ai.chat/tools/math/factorial-calculator): Factorial Calculator - Free online mathematics tool running 100% locally in your browser.
+- [Fraction Calculator](https://tools.realtime-ai.chat/tools/math/fraction-calculator): Fraction Calculator - Free online mathematics tool running 100% locally in your browser.
+
+## Productivity
+
+- [Pomodoro Timer](https://tools.realtime-ai.chat/tools/productivity/pomodoro-timer): Pomodoro Timer - Free online productivity tool running 100% locally in your browser.
+- [Pomodoro Plus](https://tools.realtime-ai.chat/tools/productivity/pomodoro-plus): Pomodoro Plus - Free online productivity tool running 100% locally in your browser.
+- [Habit Tracker](https://tools.realtime-ai.chat/tools/productivity/habit-tracker): Habit Tracker - Free online productivity tool running 100% locally in your browser.
+- [Timezone Meeting](https://tools.realtime-ai.chat/tools/productivity/timezone-meeting): Timezone Meeting - Free online productivity tool running 100% locally in your browser.
+- [Focus Timer](https://tools.realtime-ai.chat/tools/productivity/focus-timer): Focus Timer - Free online productivity tool running 100% locally in your browser.
+- [Reading Time (Productivity)](https://tools.realtime-ai.chat/tools/productivity/reading-time): Reading Time (Productivity) - Free online productivity tool running 100% locally in your browser.
+
+## Pet Care
+
+- [Pet Age](https://tools.realtime-ai.chat/tools/pets/pet-age): Pet Age - Free online pet care tool running 100% locally in your browser.
+- [Pet Food Calculator](https://tools.realtime-ai.chat/tools/pets/pet-food-calc): Pet Food Calculator - Free online pet care tool running 100% locally in your browser.
+- [Pet Age Calculator Cn](https://tools.realtime-ai.chat/tools/pets/pet-age-calculator-cn): Pet Age Calculator Cn - Free online pet care tool running 100% locally in your browser.
+- [Pet Age Calculator](https://tools.realtime-ai.chat/tools/pets/pet-age-calculator): Pet Age Calculator - Free online pet care tool running 100% locally in your browser.
+- [Feeding Schedule](https://tools.realtime-ai.chat/tools/pets/feeding-schedule): Feeding Schedule - Free online pet care tool running 100% locally in your browser.
+- [Pet Medication Dosage](https://tools.realtime-ai.chat/tools/pets/pet-medication-dosage): Pet Medication Dosage - Free online pet care tool running 100% locally in your browser.
+
+## Optional
+
+- [GitHub 仓库](https://github.com/chicogong/html-tools): 源代码、Issue 反馈、贡献指南
+- [完整工具列表](https://tools.realtime-ai.chat/): 首页查看全部 1088+ 工具
